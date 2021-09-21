@@ -7,22 +7,18 @@ function App() {
       <SVGLogo className="logo" />
       <div className="btn-container">
         <a
-          href="http:// danlubbersphotographs.com"
+          href="https://danlubbersphotographs.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="photoBtn" data-aos="zoom-in">
-            Photography / Retouching
-          </button>
+          <button className="photo-btn">Photography / Retouching</button>
         </a>
         <a
           href="https://webdev.danlubbers.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="webDevBtn" data-aos="zoom-in">
-            Web Development
-          </button>
+          <button className="webDev-btn">Web Development</button>
         </a>
       </div>
     </main>

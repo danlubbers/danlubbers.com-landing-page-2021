@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 $font-family: "Montserrat", sans-serif;
 
@@ -51,59 +51,51 @@ body {
 }
 
 .App {
-  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
 
   @media (max-width: 768px) {
     display: flex;
     justify-content: flex-start;
-    margin-top: 150px;
+    margin-top: 20rem;
   }
 
   @media (min-width: 1024px) {
     display: flex;
-    justify-content: flex-start;
-    margin-top: 400px;
+    justify-content: center;
   }
 }
 
-.nameBtn {
-  background: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
 .logo {
-  width: 40vw;
+  width: 100%;
+  max-width: 40vw;
 
   @media (max-width: 768px) {
-    width: 70vw;
+    max-width: 70vw;
   }
 }
 
 .btn-container {
-  margin-top: 25px;
+  margin-top: 3rem;
   width: 100vw;
   display: flex;
   justify-content: space-around;
 
   @media (max-width: 768px) {
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .photoBtn {
+  .photo-btn {
     outline: none;
     border: none;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: $font-family;
     color: $font-color;
     background: none;
@@ -111,17 +103,17 @@ body {
     transition: all 0.5s ease-in-out;
 
     @media (max-width: 768px) {
-      margin-bottom: 20px;
-      font-size: 1.5em;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
     }
   }
 
-  .webDevBtn {
-    @extend .photoBtn;
+  .webDev-btn {
+    @extend .photo-btn;
   }
 
-  .photoBtn:hover,
-  .webDevBtn:hover {
+  .photo-btn:hover,
+  .webDev-btn:hover {
     color: $hover-color;
     transition: all 0.5s ease-in-out;
   }
