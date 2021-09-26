@@ -1,12 +1,14 @@
 import { ReactComponent as SVGLogo } from "./assets/logos/danlubbers_logo_#A52A25_outlined.svg";
 import "./App.scss";
 import ReactGA from "react-ga";
+import SEO from "./SEO";
 
 ReactGA.initialize("UA-1733817-2");
 
 function App() {
   return (
     <main className="App">
+      <SEO />
       {ReactGA.event({
         category: "[danlubbers.com]",
         action: "[danlubbers.com]: User landed on landing page",
