@@ -1,6 +1,9 @@
-# Dan Lubbers Landing Page
+<div align="center">
+   <h1 style="color:#0e0e0e">Dan Lubbers Landing Page</h1>
+  <h3 style="color:#0e0e0e">Web Developer | Photographer | Retoucher</h3>
+</div>
 
-## Web Developer | Photographer | Retoucher
+<br>
 
 [danlubbers.com](https://danlubbers.com)
 
